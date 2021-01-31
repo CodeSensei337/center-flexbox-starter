@@ -1,5 +1,7 @@
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
+/* CS = CodeSensei337 comments */
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -100,16 +102,16 @@ html {
     background: url(../img/bkgd2.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-   /* height set to 100% - important for allowing content to vertically align */
+   /* CS: height set to 100% - important for allowing content to vertically align */
 }
 
 body {
     height: 100%;
-     /* height set to 100% - important for allowing content to vertically align */
+     /* CS: height set to 100% - important for allowing content to vertically align */
 }
 
 .wrapper {
-    display:flex;  /* display set to flex and justify-content & align-items properties used to center all child elements on the page */
+    display:flex;  /* CS: display set to flex and justify-content & align-items properties used to center all child elements on the page */
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -118,7 +120,7 @@ body {
 }
 
 #content {
-    display: flex;  /* display set to flex and justify-content & align-items properties used to center the text within the div*/
+    display: flex;  /* CS: display set to flex and justify-content & align-items properties used to center the text within the div*/
     justify-content: center;
     align-items: center;
     background: #222;
@@ -126,12 +128,12 @@ body {
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    font-size: 1.25em;
+    font-size: 1.80em;          /* CS: changed font-size from 1.25em to 1.80em to stretch content to fill background */
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
     width: 300px;
-    height: 100%;    /* changed height from 300px to 100% to enable background coverage for entire content */
+    height: 100%;    /* CS: changed height from 300px to 100% to enable background coverage for entire content */
 }
 
 #content p span {
